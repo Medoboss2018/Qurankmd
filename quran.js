@@ -9,7 +9,7 @@ const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 const prefix = '$';
 
 client.on('message', message => {
-	if(message.content.startsWith(prefix + 'قرآن')) {
+	if(message.content.startsWith(prefix + 'قران')) {
 		message.delete();
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) return message.reply(`**يحب ان تكون في روم صوتي**`);
